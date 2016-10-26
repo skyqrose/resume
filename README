@@ -1,0 +1,19 @@
+My Resume.
+
+Files:
+
+README
+    This file
+
+addToResume.txt
+   Things to update. It's here for my personal version control,
+   not because it's supposed to represent me as a resume would.
+   You should probably ignore it.
+
+sky_rose.pdf
+    The most up-to-date version of my resume. Use this one.
+
+Resume.tex
+    Source for sky_rose.pdf.
+
+.gitignore

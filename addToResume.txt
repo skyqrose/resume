@@ -1,0 +1,32 @@
+# Improvements I want to make to my resume.
+# It's not necessarily organized or up to date,
+# so don't use it to see my accomplishments.
+# Look at sky_rose.pdf, the most up-to-date version of my resume, instead.
+
+Hubspot accomplishments
+  * migration off google calendar
+    - hard part was source of truth problem
+      + couldn't do double write cuz old system was not writing to our database
+  * build models for liveMessages
+    - ground up. db schema (mysql, liquibase)
+    - daos, sql queries
+    - java objects
+    - dropwizard endpoints
+  * paid off lots of tech debt
+    - TODO find examples
+
+Girls who code responsibilities as teacher
+demographics
+
+Haskell?
+What I want?
+  "Full time. Backend or low level work. Particularly interested in API design and in code quality / maintenance / development practices that reduce code rot."
+
+Formatting:
+  Courses bullets are offset to the right.
+
+Skills
+  better organization
+  java libraries
+    dropwizard
+    guice injection

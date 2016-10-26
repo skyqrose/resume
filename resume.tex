@@ -1,0 +1,160 @@
+\documentclass{article}
+
+\usepackage[top=1cm, bottom=0cm, left=1cm, right=1cm]{geometry} %margins
+\usepackage{nopageno}
+\usepackage[none]{hyphenat} %remove hyphenation
+\usepackage{enumitem} % make lists denser
+\usepackage{ragged2e}
+\setlist{nosep}
+
+\newcommand{\sectionheading}[1]{ #1 }
+
+%title, subtitle, location, date, body
+%uses two columns
+\newcommand\experiencesection[5]{
+\textbf{#1} % title
+
+\emph{#2} % subtitle
+
+#5 % body
+&
+{\RaggedLeft
+#3 \newline % location
+#4 \newline % date
+}
+}
+
+%also includes arguments: main title, subtitle
+
+\begin{document}
+
+\raggedright
+\begin{tabular}{ p{2.3cm} p{12cm} p{4cm} }
+    &
+    \vspace{-.3cm}
+    {\fontfamily{pcr}\selectfont
+    {\fontsize{35}{0}\selectfont Sky Rose} \vspace{.2cm} \newline
+    {\fontsize{17}{0}\selectfont sky.q.rose@gmail.com} \newline
+    }
+    &
+    {\RaggedLeft
+    93 Marion St \newline
+    Somerville, MA  02143 \newline
+    802-989-3063 \newline
+    } \\
+
+\hline
+\\
+
+% Education
+\sectionheading{Education}
+&
+\textbf{Carnegie Mellon University} \newline
+GPA: 3.42/4.0 \newline
+\setlength{\parindent}{0.25in}
+\indent Computer Science Major \newline
+\indent Math Minor \newline
+\indent University Honors \newline
+&
+{\RaggedLeft
+Pittsburgh, PA \newline
+May 2016 \newline
+}
+\\
+
+\sectionheading{Experience}
+& \experiencesection{HubSpot}{Software Engineer}{Cambridge, MA}{June 2016 - present}{
+} \\
+& \experiencesection{Palantir}{Engineering Intern}{Palo Alto, CA}{Summer 2015}{
+\begin{itemize}
+\item Designed and wrote a server-side API for a new maps library.
+\item Replaced legacy maps code with the new extensible library.
+\item Focused on making configuration easy.
+\item Made it easier to make future maps applications.
+\end{itemize}
+}\\
+& \experiencesection{Asana}{Engineering Intern}{San Francisco, CA}{Summer 2014}{
+\begin{itemize}
+\item Improved a number of views.
+\item Wrote asynchronous jobs for a new digest email.
+\item Rewrote the log processor that checks if the site is up.
+\end{itemize}
+}\\
+
+\sectionheading{Teaching}
+& \experiencesection {Carnegie Mellon University} {Teaching Assistant -- Intro to Unix for Freshmen -- Student-run course} {Pittsburgh, PA} {Fall 2015 \newline $ $ \newline Spring 2013 - Fall 2014}{
+\begin{itemize}
+\item Wrote and gave lectures.
+\end{itemize}
+\emph{Course Assistant -- Fundamentals of Programming (Python)}
+\begin{itemize}
+\item Grading, tutoring, leading recitations
+\end{itemize}
+}\\
+
+& \experiencesection{Girls Who Code}{Club Facillitator at the Brookview House}{Dorcester, MA}{Oct. 2016 - June 2017}{
+}\\
+
+\sectionheading{Skills}
+&
+\multicolumn{2}{l}{
+Linux, C, Java, Python, JavaScript, Bash, Vim, \LaTeX, GDB, Git  \newline
+} \\
+& \\ %extra space under skills
+
+% Projects
+\sectionheading{Academic Achievements}
+& % OS
+\textbf{Operating Systems Project Course}
+\begin{itemize}
+\item Multi-threaded, single core, with virtual memory and exception handling.
+\item Designed and wrote everything from the device drivers up.
+\item Also wrote a user-space thread synchronization library.
+\item Worked with a partner.
+\end{itemize}
+&
+{\RaggedLeft
+Pittsburgh, PA \newline
+Fall 2014 \newline
+}
+
+\\
+&% Putnam
+\textbf{Putnam Contest} \newline
+\setlength{\parindent}{0.25in}
+\indent December 2013, Score: 30 (top 300)\newline
+\indent December 2014, Score: 21 \newline
+&
+\\
+% end Projects
+
+\sectionheading{Courses}
+&
+\multicolumn{2}{l}{
+\begin{tabular}[t]{p{6cm} p{8cm}}
+\vspace{-.22cm}
+\begin{itemize}
+%short names
+\item Operating Systems
+\item Programming Language Theory
+\item Lambda Calculus
+\item Combinatorics
+\end{itemize}
+&
+\vspace{-.22cm}
+\begin{itemize}
+%long names
+\item Intro to Computer and Network Security
+\item Algorithm Design and Analysis
+\item Probability and Computing
+\item Computer Graphics
+\end{itemize}
+\\
+\end{tabular}
+} \\
+% end Courses
+
+& & {\RaggedLeft\footnotesize Updated \today{}\newline} \\
+
+\end{tabular}
+\end{document}
