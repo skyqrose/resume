@@ -24,9 +24,3 @@ What I want?
 
 Formatting:
   Courses bullets are offset to the right.
-
-Skills
-  better organization
-  java libraries
-    dropwizard
-    guice injection
