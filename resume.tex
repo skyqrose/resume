@@ -9,6 +9,8 @@
 
 \newcommand{\sectionheading}[1]{ #1 }
 
+\newcommand{\rightalign}[1]{\RaggedLeft #1}
+
 %title, subtitle, location, date, body
 %uses two columns
 \newcommand\experiencesection[5]{
@@ -18,7 +20,7 @@
 
 #5 % body
 &
-{\RaggedLeft
+\rightalign{
 #3 \newline % location
 #4 \newline % date
 }
@@ -35,7 +37,7 @@
     {\fontsize{17}{0}\selectfont sky.q.rose@gmail.com} \newline
     }
     &
-    {\RaggedLeft
+    \rightalign{
     93 Marion St \newline
     Somerville, MA  02143 \newline
     802-989-3063 \newline
@@ -46,11 +48,47 @@
 
 \sectionheading{Purpose}
 &
-I'm looking for a full time job in software engineering.
-My interests are in code quality and maintenance and in education.
+I'm looking for a short term job (probably 1-3 months), full or part time, while my career as a software engineer gets settled.
 \\
 & \\
 % end Purpose
+
+\sectionheading{Biking Experience}
+
+& \textbf{Tour from Pittsburgh, PA to Boston}
+\begin{itemize}
+\item Went nearly 800 miles over 12 days.
+\item Part of my move from Pittsburgh to Boston after graduating college.
+\end{itemize}
+& \rightalign{May 2016} \\
+
+& \textbf{Great Allegheny Passage}
+\begin{itemize}
+\item Pittsburgh, PA to Cumberland, MD and back.
+\item 300 miles round trip over 4 days during Spring Break.
+\end{itemize}
+& \rightalign{March 2016} \\
+
+& \experiencesection{Bike Maintenance Class I and II}{Artisans' Asylum}{Somerville, MA}{December 2016, \newline April 2017} {
+\begin{itemize}
+\item Day-to-day maintenance: flat repair and chain care.
+\item Occasional tune-ups: derailleurs, wheel truing, and bearings.
+\end{itemize}
+} \\
+
+& \textbf{SCUL}
+\begin{itemize}
+\item Riding crazy bikes every Saturday night.
+\end{itemize}
+& \rightalign{Somerville, MA \newline April-Oct 2017} \\
+
+% end Biking Experience
+
+\sectionheading{Job Experience}
+& \experiencesection{HubSpot}{Software Engineer}{Cambridge, MA}{June 2016 - Nov. 2016}{} \\
+& \experiencesection{Palantir}{Software Engineering Intern}{Palo Alto, CA}{Summer 2015}{}\\
+& \experiencesection{Asana}{Software Engineering Intern}{San Francisco, CA}{Summer 2014}{}\\
+% end Experience
 
 \sectionheading{Education}
 &
@@ -67,12 +105,6 @@ May 2016 \newline
 }
 \\
 % end Education
-
-\sectionheading{Experience}
-& \experiencesection{HubSpot}{Software Engineer}{Cambridge, MA}{June 2016 - Nov. 2016}{} \\
-& \experiencesection{Palantir}{Software Engineering Intern}{Palo Alto, CA}{Summer 2015}{}\\
-& \experiencesection{Asana}{Software Engineering Intern}{San Francisco, CA}{Summer 2014}{}\\
-% end Experience
 
 \sectionheading{Teaching}
 & \experiencesection {Carnegie Mellon University} {Teaching Assistant -- Intro to Unix for Freshmen -- Student-run course} {Pittsburgh, PA} {Fall 2015 \newline $ $ \newline Spring 2013 - Fall 2014}{
@@ -93,11 +125,19 @@ May 2016 \newline
 }\\
 % end Teaching
 
-\sectionheading{Skills}
-&
-TODO skills go here \newline
-& \\
-% end Skills
+\sectionheading{Extracuriculars}
+& \experiencesection
+{Scotch 'n' Soda Theater Tech}
+{Carnegie Mellon University}
+{Pittsburgh, PA}
+{Sept '15 - May '16}
+{
+\begin{itemize}
+\item Technical Director, May 2016.
+\item In charge of painting the set, December 2015 and April 2016.
+\item Also served as a member of paint and carpentry crews several times.
+\end{itemize}
+} \\
 
 & & {\RaggedLeft\footnotesize Updated \today{}\newline} \\
 
