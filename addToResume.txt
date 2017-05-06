@@ -24,3 +24,24 @@ What I want?
 
 Formatting:
   Courses bullets are offset to the right.
+
+
+-- bike
+
+Show you're a responsible competent adult
+Give something to start a conversation
+
+add
+  Scul
+  Bike Maint I and II at Artisans' Asylum
+  Trips: Great Allegheny Passage March 16
+         Pgh -> Boston May 16
+  Sns
+
+sections
+
+Purpose
+Biking Experience
+Job Experience
+Extracuriculars
+Education
