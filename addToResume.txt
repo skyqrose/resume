@@ -24,3 +24,16 @@ What I want?
 
 Formatting:
   Courses bullets are offset to the right.
+
+Black Girls Code
+June 10, 2017
+Technical instructor
+Responsibilities,
+  teaching from the front of the room, pacing
+  managing fleet of assistants
+  assisting studnets who were stuck
+Internet of things, little bits, circuits, input and output
+  nightlights, clap to turn lights off and on, dimmers
+16 parent+kid pairs
+BGC provided the curriculum+materials.
+one day, 2 hours before lunch, 2 hours after, with probably 3 hours of prep
