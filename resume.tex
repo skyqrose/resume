@@ -5,6 +5,7 @@
 \usepackage[none]{hyphenat} %remove hyphenation
 \usepackage{enumitem} % make lists denser
 \usepackage{ragged2e}
+\usepackage{pgffor}
 \setlist{nosep}
 
 \newcommand{\sectionheading}[1]{ #1 }
@@ -65,7 +66,22 @@ May 2016 \newline
 % end Education
 
 \sectionheading{Experience}
-& \experiencesection{MBTA Customer Technology}{Software Engineer}{Boston, MA}{July 2017 - current}{
+& \experiencesection{MBTA Customer Technology}{Full Stack Software Engineer -- Website}{Boston, MA}{
+  July 2017 - Nov 2017\foreach \i in {1,...,9}{$ $ \newline} Dec 2017 - current
+}{
+\begin{itemize}
+\item Contributed before and after launch of new website in Sept 2017.
+\item Made several parts of the site more accessible.
+\item Allowed several parts of the site to be updated via the CMS instead of requiring code changes, which speeds up the release of new information.
+\item Increased reliability.
+\item Saved money by reducing calls to the Google Maps API.
+\item Surfaced alerts and other actionable information in the trip planner.
+\item Interviewed new candidates.
+\end{itemize}
+\emph{Glides Project -- Improving access to information for Green Line operations}
+\begin{itemize}
+\item Interviewed Green Line inspectors, dispatchers, and supervisors to find what information would be useful to them.
+\end{itemize}
 } \\
 
 & \experiencesection{HubSpot}{Software Engineer}{Cambridge, MA}{June 2016 - Nov. 2016}{
