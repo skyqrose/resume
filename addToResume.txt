@@ -3,37 +3,14 @@
 # so don't use it to see my accomplishments.
 # Look at sky_rose.pdf, the most up-to-date version of my resume, instead.
 
-Hubspot accomplishments
-  * migration off google calendar
-    - hard part was source of truth problem
-      + couldn't do double write cuz old system was not writing to our database
-  * build models for liveMessages
-    - ground up. db schema (mysql, liquibase)
-    - daos, sql queries
-    - java objects
-    - dropwizard endpoints
-  * paid off lots of tech debt
-    - TODO find examples
+Projects
+  Dudley Map
+  Davis
 
-Girls who code responsibilities as teacher
-demographics
+  Twitter
 
-Haskell?
-What I want?
-  "Full time. Backend or low level work. Particularly interested in API design and in code quality / maintenance / development practices that reduce code rot."
+Involvement
+  Somerville YIMBY
+  Inman Square Neighborhood Association
 
-Formatting:
-  Courses bullets are offset to the right.
-
-Black Girls Code
-June 10, 2017
-Technical instructor
-Responsibilities,
-  teaching from the front of the room, pacing
-  managing fleet of assistants
-  assisting studnets who were stuck
-Internet of things, little bits, circuits, input and output
-  nightlights, clap to turn lights off and on, dimmers
-16 parent+kid pairs
-BGC provided the curriculum+materials.
-one day, 2 hours before lunch, 2 hours after, with probably 3 hours of prep
+  Public meetings in support of bike lanes in Somerville, Cambridge, and Boston
