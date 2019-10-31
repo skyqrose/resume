@@ -1,1 +1,3 @@
-[Click here for the pdf.](./sky_rose.pdf)
+[Resume (sky_rose.md)](./sky_rose.md)
+
+(The `.pdf` and `.tex` versions are less up to date)
