@@ -1,3 +1,3 @@
-[Resume (sky_rose.md)](./sky_rose.md)
+[Resume (sky_rose_emt.pdf)](./sky_rose_emt.pdf)
 
-(The `.pdf` and `.tex` versions are less up to date)
+(All the `_software` resumes are out of date.)
